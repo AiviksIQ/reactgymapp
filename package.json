@@ -2,7 +2,7 @@
     "name": "myapp",
     "version": "0.1.0",
     "private": true,
-     "homepage": "http:/aiviksiq.github.io",
+     "homepage": "http:/aiviksiq.github.io/ReactGymApp",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
