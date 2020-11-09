@@ -1,0 +1,11 @@
+.maps__wrapper {
+    height: 50vh;
+    width: 100%;
+    max-width: 114rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .maps__wrapper {
+        margin: 2.6rem auto;
+    }
+}

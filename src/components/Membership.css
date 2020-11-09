@@ -1,0 +1,152 @@
+.section-features {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.88)), url('../dumbells900.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 900px) {
+    .section-features {
+        padding: 0;
+        background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.88)), url('../dumbells.jpg');
+    }
+}
+
+.heading-membership {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #000000, var(--main-color));
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .heading-membership {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .heading-membership {
+        font-size: 3.5rem;
+        margin-top: 10rem;
+    }
+}
+
+.row__child {
+    width: 100%;
+    height: 100%;
+    max-width: 36rem;
+}
+
+.feature-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+    margin: 0 1rem;
+    position: relative;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
+
+.feature-box:hover .member-img {
+    transform: scale(1.16);
+}
+
+.feature-box__icon {
+    font-size: 4rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #000000, #b42828);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    height: 20rem;
+    max-width: 50rem;
+    margin-top: 2rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+
+.member-img {
+    height: 14rem;
+    width: 100%;
+    color: #61d9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: transform .3s;
+}
+
+.member__cover {
+    background-image: linear-gradient(to right bottom, rgb(255 255 255 / 73%), rgb(0 0 0)), url('../gym1.jpg');
+}
+
+.member-img h3 {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    font-size: 3rem;
+    background-image: linear-gradient(to right, #000000, #b42828);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card__details.card__details--small {
+    padding: 0 2rem;
+}
+
+.icon-basic-world:before {
+    content: "33$";
+}
+
+.icon-basic-compass:before {
+    content: "33$/Month";
+}
+
+.icon-basic-map:before {
+    content: "333$/Year";
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "linea-basic-10" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 1.5rem;
+}
+
+.transformScale--09 {
+    transform: scale(0.9);
+}

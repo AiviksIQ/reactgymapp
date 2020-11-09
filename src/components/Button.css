@@ -1,0 +1,43 @@
+.btn.cta--desktop {
+    display: none;
+    top: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .btn.cta--desktop {
+        display: block;
+        position: absolute;
+        right: 30px;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        background: red;
+        font-weight: 600;
+        background-image: linear-gradient(to right bottom, rgb(255 0 0), rgb(0 0 0 / 59%));
+        margin-top: 3rem;
+    }
+}
+
+.btn.cta--mobile {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background: red;
+    top: 0;
+    font-weight: 600;
+    background-image: linear-gradient(to right bottom, rgb(255 0 0), rgb(0 0 0 / 59%));
+}
+
+@media only screen and (min-width: 600px) {
+    .btn.cta--mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .btn.cta--desktop {
+        display: none;
+    }
+}
+
+.margin-bottom--0 {
+    margin-bottom: 0!important;
+}

@@ -1,0 +1,130 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 114rem;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 900px) {
+    .row {
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+.section-about {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    height: 100vh;
+}
+
+@media only screen and (min-width: 900px) {
+    .section-about {
+        padding: 0;
+        height: calc(100vh - 95px);
+    }
+}
+
+.heading-secondary {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #61d9f9, #b42828);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .heading-secondary {
+        font-size: 3.5rem;
+    }
+}
+
+.about__text-wrapper {
+    max-width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+    .about__text-wrapper {
+        max-width: 50%;
+    }
+}
+
+.heading-tertiary {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 900px) {
+    .heading-tertiary {
+        font-size: 1.6rem;
+    }
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 1.5rem;
+}
+
+.paragraph {
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .paragraph {
+        font-size: 1.5rem;
+    }
+}
+
+.composition {
+    text-align: center;
+}
+
+.composition img {
+    max-width: 50%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    padding: 0.3rem;
+    margin: 5rem;
+}
+
+.composition img:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.composition__photo--p1 {
+    left: 8px;
+    top: -2rem;
+}
+
+.composition__photo--p2 {
+    right: 0;
+    top: 2rem;
+}
+
+.composition__photo--p3 {
+    left: 20%;
+    top: 10rem;
+}
+
+.column--center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

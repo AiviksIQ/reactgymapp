@@ -1,0 +1,107 @@
+.hero__wrapper {
+    height: 100vh;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__image {
+    background-image: url('../heroMid.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+}
+
+@media (min-width: 400px) {
+    .hero__image {
+        background-image: url('../hero.jpg');
+    }
+}
+
+.hero__text-box {
+    text-align: center;
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+
+.heading-primary {
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0.4rem;
+}
+
+.heading-primary--main {
+    font-size: 4rem;
+}
+
+@media (min-width: 600px) {
+    .heading-primary--main {
+        font-size: 8rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .heading-primary--main {
+        font-size: 14rem;
+        line-height: 14rem;
+    }
+}
+
+.heading-primary--sub {
+    font-size: 2rem;
+    margin-top: 0.2rem;
+}
+
+@media (min-width: 900px) {
+    .heading-primary--sub {
+        font-size: 5rem;
+        margin-top: 0.4rem;
+    }
+}
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.8rem 1.8rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background: var(--main-color);
+    color: white;
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+    top: 0;
+    background-image: linear-gradient(to right bottom, rgb(88 198 227), rgb(0 0 0 / 70%));
+}
+
+@media (min-width: 600px) {
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        top: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    .btn {
+        font-size: 1.6rem;
+    }
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}

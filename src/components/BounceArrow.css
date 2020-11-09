@@ -1,0 +1,28 @@
+.bounce {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-top: -25px;
+    margin-left: -25px;
+    height: 50px;
+    width: 50px;
+    animation: bounce 1s infinite;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bounce:hover {
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 30;
+    }
+}
