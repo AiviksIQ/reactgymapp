@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-scroll";
 import { Link as Linked } from 'react-router-dom';
-import logo from 'http://.github.io/aiviksiq/reactgymapp/logo.svg';
+import logo from '../logo.svg';
 import './Navbar.css';
 
 function Navbar() {
