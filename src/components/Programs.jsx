@@ -10,9 +10,9 @@ Modal.setAppElement('#root')
 function Programs() {
     const [modalIsOpen, setModalIsOpen] = useState(false)
     return (
-        <div>
+        <div id="programs">
             <LazyLoad once >
-                <section className="section-tours" id="programs">
+                <section className="section-tours">
                     <div className="u-center-text u-margin-bottom-big">
                         <h2 className="heading-secondary">
                             Programs
