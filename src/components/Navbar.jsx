@@ -47,7 +47,7 @@ function Navbar() {
                             to="home"
                             spy={true}
                             smooth={true}
-                            offset={window.innerWidth < 600 ? 0 : -95}
+                            offset={window.innerWidth < 600 ? 0 : -90}
                             duration={500}
                         ><img src={logo} alt="logo" className="header__logo" /></Link>
                     </div>
@@ -60,7 +60,7 @@ function Navbar() {
                                 to="about"
                                 spy={true}
                                 smooth={true}
-                                offset={window.innerWidth < 600 ? 0 : -95}
+                                offset={window.innerWidth < 600 ? 0 : -90}
                                 duration={500}
                             >About</Link>
                         </li>
@@ -72,7 +72,7 @@ function Navbar() {
                                 to="membership"
                                 spy={true}
                                 smooth={true}
-                                offset={window.innerWidth < 600 ? 0 : -95}
+                                offset={window.innerWidth < 600 ? 0 : -90}
                                 duration={500}
                             >Membership</Link>
                         </li>
@@ -84,7 +84,7 @@ function Navbar() {
                                 to="programs"
                                 spy={true}
                                 smooth={true}
-                                offset={window.innerWidth < 600 ? 0 : -95}
+                                offset={window.innerWidth < 600 ? 0 : -90}
                                 duration={500}
                             >Programs</Link>
                         </li>
@@ -96,7 +96,7 @@ function Navbar() {
                                 to="contacts"
                                 spy={true}
                                 smooth={true}
-                                offset={window.innerWidth < 600 ? 0 : -95}
+                                offset={window.innerWidth < 600 ? 0 : -90}
                                 duration={500}
                             >Contacts</Link>
                         </li>
