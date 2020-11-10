@@ -58,7 +58,7 @@ function SignUp() {
                     </div>
                 </div>
             </div>
-            <Linked to='/Signup'  ><img src={logo} alt="logo" className="header__logo" /></Linked>
+            <Linked to='/'  ><img src={logo} alt="logo" className="header__logo" /></Linked>
         </div>
     )
 }
