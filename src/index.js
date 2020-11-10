@@ -14,7 +14,7 @@ ReactDOM.render( <
     <
     Switch >
     <
-    Route path = '/Signup'
+    Route path = '/reactgymapp/Signup'
     component = { Signup }
     /> <
     Route path = '/reactgymapp'
