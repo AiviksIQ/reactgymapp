@@ -101,10 +101,10 @@ function Navbar() {
                             >Contacts</Link>
                         </li>
                         <li className="navigation__item">
-                        <Linked to='/reactgymapp/Signup'><a href="#section-workouts none" className="btn cta--mobile">Sign Up</a></Linked>
+                        <Linked to='/Signup'><a href="#section-workouts none" className="btn cta--mobile">Sign Up</a></Linked>
                         </li>
                     </ul>
-                    <Linked to='/reactgymapp/Signup'><a className="btn cta--desktop">Sign up</a></Linked>
+                    <Linked to='/Signup'><a className="btn cta--desktop">Sign up</a></Linked>
                 </nav>
             </div>
             <div onClick={handleToggle} className="burger burger-js">
