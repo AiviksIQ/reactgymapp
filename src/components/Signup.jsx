@@ -58,7 +58,7 @@ function SignUp() {
                     </div>
                 </div>
             </div>
-            <Linked to='/'  ><img src={logo} alt="logo" className="header__logo" /></Linked>
+            <Linked to='/reactgymapp'  ><img src={logo} alt="logo" className="header__logo" /></Linked>
         </div>
     )
 }
