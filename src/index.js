@@ -10,7 +10,21 @@ ReactDOM.render( <
     React.StrictMode >
 
     <
-    App / >
+    Router >
+    <
+    Switch >
+    <
+    Route path = '/Signup'
+    component = { Signup }
+    /> <
+    Route path = '/reactgymapp'
+    exact component = { App }
+    />
+
+
+    <
+    /Switch> < /
+    Router >
 
     <
     /React.StrictMode>,
