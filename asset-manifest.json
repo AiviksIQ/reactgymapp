@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactgymapp/static/css/main.341d0ee2.chunk.css",
-    "main.js": "/reactgymapp/static/js/main.19f9fe7c.chunk.js",
-    "main.js.map": "/reactgymapp/static/js/main.19f9fe7c.chunk.js.map",
+    "main.js": "/reactgymapp/static/js/main.634de9e4.chunk.js",
+    "main.js.map": "/reactgymapp/static/js/main.634de9e4.chunk.js.map",
     "runtime-main.js": "/reactgymapp/static/js/runtime-main.419d0592.js",
     "runtime-main.js.map": "/reactgymapp/static/js/runtime-main.419d0592.js.map",
     "static/css/2.69507427.chunk.css": "/reactgymapp/static/css/2.69507427.chunk.css",
-    "static/js/2.f1a30187.chunk.js": "/reactgymapp/static/js/2.f1a30187.chunk.js",
-    "static/js/2.f1a30187.chunk.js.map": "/reactgymapp/static/js/2.f1a30187.chunk.js.map",
+    "static/js/2.9fa825f5.chunk.js": "/reactgymapp/static/js/2.9fa825f5.chunk.js",
+    "static/js/2.9fa825f5.chunk.js.map": "/reactgymapp/static/js/2.9fa825f5.chunk.js.map",
     "index.html": "/reactgymapp/index.html",
-    "precache-manifest.a02c58494a45283c82ae475629ac28c9.js": "/reactgymapp/precache-manifest.a02c58494a45283c82ae475629ac28c9.js",
+    "precache-manifest.9be744ae43443195c4319d68cd2224c0.js": "/reactgymapp/precache-manifest.9be744ae43443195c4319d68cd2224c0.js",
     "service-worker.js": "/reactgymapp/service-worker.js",
     "static/css/2.69507427.chunk.css.map": "/reactgymapp/static/css/2.69507427.chunk.css.map",
     "static/css/main.341d0ee2.chunk.css.map": "/reactgymapp/static/css/main.341d0ee2.chunk.css.map",
-    "static/js/2.f1a30187.chunk.js.LICENSE.txt": "/reactgymapp/static/js/2.f1a30187.chunk.js.LICENSE.txt",
+    "static/js/2.9fa825f5.chunk.js.LICENSE.txt": "/reactgymapp/static/js/2.9fa825f5.chunk.js.LICENSE.txt",
     "static/media/adown.svg": "/reactgymapp/static/media/adown.80093299.svg",
     "static/media/Contacts.css": "/reactgymapp/static/media/contacts.46244b6f.jpg",
     "static/media/Membership.css": "/reactgymapp/static/media/dumbells900.a6ed7a26.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.419d0592.js",
     "static/css/2.69507427.chunk.css",
-    "static/js/2.f1a30187.chunk.js",
+    "static/js/2.9fa825f5.chunk.js",
     "static/css/main.341d0ee2.chunk.css",
-    "static/js/main.19f9fe7c.chunk.js"
+    "static/js/main.634de9e4.chunk.js"
   ]
 }
