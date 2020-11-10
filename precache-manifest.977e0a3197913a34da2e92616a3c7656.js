@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4aa6fd56ca9e8cdb209c139561e67f2b",
+    "revision": "69581db203c7029ce62a61a723b77f94",
     "url": "/reactgymapp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactgymapp/static/css/2.69507427.chunk.css"
   },
   {
-    "revision": "e01f83951caa058e709f",
-    "url": "/reactgymapp/static/css/main.bc1f7fc9.chunk.css"
+    "revision": "9753d63f51cfeb85b07f",
+    "url": "/reactgymapp/static/css/main.49ad33e3.chunk.css"
   },
   {
     "revision": "3a0283bb37e60d678a50",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactgymapp/static/js/2.9fa825f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e01f83951caa058e709f",
-    "url": "/reactgymapp/static/js/main.c977861d.chunk.js"
+    "revision": "9753d63f51cfeb85b07f",
+    "url": "/reactgymapp/static/js/main.e81d5a33.chunk.js"
   },
   {
     "revision": "1d986c257b5a8762583e",
