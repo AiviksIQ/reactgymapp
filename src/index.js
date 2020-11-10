@@ -9,7 +9,23 @@ import Signup from './components/Signup'
 ReactDOM.render( <
     React.StrictMode >
 
-<h1>Hello World</h1>
+    <
+    Router >
+    <
+    Switch >
+    <
+    Route path = '/Signup'
+    component = { Signup }
+    /> <
+    Route path = 'AiviksIQ/ReactGymApp'
+    exact component = { App }
+    />
+
+
+    <
+    /Switch> <
+    /Router >
+
     <
     /React.StrictMode>,
     document.getElementById('root')
