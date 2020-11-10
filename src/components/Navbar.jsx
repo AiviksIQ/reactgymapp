@@ -107,6 +107,7 @@ function Navbar() {
                     <Linked to='/Signup'><a className="btn cta--desktop">Sign up</a></Linked>
                 </nav>
             </div>
+            
             <div onClick={handleToggle} className="burger burger-js">
                 <div className={isActive ? "buns line1" : "buns line1 toggle"}></div>
                 <div className={isActive ? "buns line2" : "buns line2 toggle"}></div>
