@@ -17,7 +17,7 @@ ReactDOM.render( <
     Route path = '/Signup'
     component = { Signup }
     /> <
-    Route path = '/'
+    Route path = '/ReactGymApp'
     exact component = { App }
     />
 
