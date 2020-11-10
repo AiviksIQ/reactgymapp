@@ -17,14 +17,14 @@ ReactDOM.render( <
     Route path = '/Signup'
     component = { Signup }
     /> <
-    Route path = 'AiviksIQ/ReactGymApp'
+    Route path = '/'
     exact component = { App }
     />
 
 
     <
-    /Switch> <
-    /Router >
+    /Switch> < /
+    Router >
 
     <
     /React.StrictMode>,
