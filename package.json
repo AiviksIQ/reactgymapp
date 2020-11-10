@@ -1,5 +1,5 @@
 {
-    "homepage": "http:/aiviksiq.github.io/ReactGymApp",
+    "homepage": "http://aiviksiq.github.io/reactgymapp",
     "name": "myapp",
     "version": "0.1.0",
     "private": false,
@@ -25,7 +25,9 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
+
     },
     "eslintConfig": {
         "extends": "react-app"
