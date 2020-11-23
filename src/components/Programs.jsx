@@ -8,6 +8,7 @@ import LazyLoad from 'react-lazyload';
 Modal.setAppElement('#root')
 
 function Programs() {
+
     const [modalIsOpen, setModalIsOpen] = useState(false)
     return (
         <div id="programs">
@@ -45,7 +46,7 @@ function Programs() {
                                             <p className="card__price-only">Only</p>
                                             <p className="card__price-value">$0</p>
                                         </div>
-                                        <a href="#popup" className="btn btn--white" onClick={() => setModalIsOpen(true)}>View More</a>
+                                        <a data-cy="card-button" href="#popup" className="btn btn--white" onClick={() => setModalIsOpen(true)}>View More</a>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +76,7 @@ function Programs() {
                                             <p className="card__price-only">Only</p>
                                             <p className="card__price-value">$0</p>
                                         </div>
-                                        <a href="#popup" className="btn btn--white" onClick={() => setModalIsOpen(true)}>View More</a>
+                                        <a data-cy="card-button"  href="#popup" className="btn btn--white" onClick={() => setModalIsOpen(true)}>View More</a>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +107,7 @@ function Programs() {
                                             <p className="card__price-only">Only</p>
                                             <p className="card__price-value">$0</p>
                                         </div>
-                                        <a href="#popup" className="btn btn--white" onClick={() => setModalIsOpen(true)}>View More</a>
+                                        <a data-cy="card-button"  href="#popup" className="btn btn--white" onClick={() => setModalIsOpen(true)}>View More</a>
                                         <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}
                                             style={{
                                                 overlay: {
@@ -146,11 +147,11 @@ function Programs() {
                                                 </h3>
                                                 <LazyLoad once >
                                                     <div className="member-img">
-                                                        <video src={Video} mute='true' autoPlay={true} />
+                                                        <video data-cy="video" src={Video} mute='true' autoPlay={true} />
                                                     </div>
                                                 </LazyLoad>
                                             </div>
-                                            <a href="workouts/One_day_forearm_workout.pdf" className="btn btn--green modal__button--center">Download now</a>
+                                            <a href="#" className="btn btn--green modal__button--center">Download now</a>
                                         </Modal>
                                     </div>
                                 </div>

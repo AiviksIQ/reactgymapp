@@ -49,7 +49,7 @@ class Form extends React.Component {
               <label htmlFor="message">Message</label>
               <textarea className="form-control" rows="5" id="message" placeholder="Your message.." value={this.state.message} onChange={this.onMessageChange.bind(this)} />
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button data-cy="form-submit" type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
     );
