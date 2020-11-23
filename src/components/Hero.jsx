@@ -12,7 +12,7 @@ function Hero() {
                 <div className="hero__text-box">
                     <h1 className="heading-primary">
                         <Fade left cascade>
-                            <span className="heading-primary--main">React Gym</span>
+                            <span data-cy="heading-main" className="heading-primary--main">React Gym</span>
                         </Fade>
                         <Fade right cascade>
                             <span className="heading-primary--sub">Become the best versions of yourself</span>
@@ -27,7 +27,7 @@ function Hero() {
                     offset={window.innerWidth < 650 ? 0 : -95}
                     duration={500}
                 >
-                    <img src={Arrow} className="bounce" ></img>
+                    <img src={Arrow}  data-cy="arrow" className="bounce" ></img>
                 </Link>
             </header>
         </div >

@@ -49,7 +49,7 @@ function Navbar() {
                             smooth={true}
                             offset={window.innerWidth < 600 ? 0 : -90}
                             duration={500}
-                        ><img src={logo} alt="logo" className="header__logo" /></Link>
+                        ><img src={logo} alt="logo" data-cy="header__logo" className="header__logo" /></Link>
                     </div>
                     <ul className="navigation__list">
                         <li className="navigation__item">
@@ -58,6 +58,7 @@ function Navbar() {
                                 className="navigation__link"
                                 activeClass="active"
                                 to="about"
+                                data-cy="header__about" 
                                 spy={true}
                                 smooth={true}
                                 offset={window.innerWidth < 600 ? 0 : -90}
@@ -70,6 +71,7 @@ function Navbar() {
                                 className="navigation__link"
                                 activeClass="active"
                                 to="membership"
+                                data-cy="header__memberships" 
                                 spy={true}
                                 smooth={true}
                                 offset={window.innerWidth < 600 ? 0 : -90}
@@ -82,6 +84,7 @@ function Navbar() {
                                 className="navigation__link"
                                 activeClass="active"
                                 to="programs"
+                                data-cy="header__programs" 
                                 spy={true}
                                 smooth={true}
                                 offset={window.innerWidth < 600 ? 0 : -90}
@@ -94,6 +97,7 @@ function Navbar() {
                                 className="navigation__link"
                                 activeClass="active"
                                 to="contacts"
+                                data-cy="header__contacts" 
                                 spy={true}
                                 smooth={true}
                                 offset={window.innerWidth < 600 ? 0 : -90}
@@ -104,7 +108,7 @@ function Navbar() {
                         <Linked to='/Signup'><a href="#section-workouts none" className="btn cta--mobile">Sign Up</a></Linked>
                         </li>
                     </ul>
-                    <Linked to='/Signup'><a className="btn cta--desktop">Sign up</a></Linked>
+                    <Linked to='/Signup' ><a data-cy="header__cta" className="btn cta--desktop">Sign up</a></Linked>
                 </nav>
             </div>
             <div onClick={handleToggle} className="burger burger-js">
